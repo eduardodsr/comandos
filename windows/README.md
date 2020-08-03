@@ -179,8 +179,7 @@ XCOPY: Copia diretórios com seus subdiretórios.
 
  ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
 
-### CONTROL: 
-abre o Painel de controle
+### CONTROL: abre o Painel de controle
 
 CONTROL /NAME MICROSOFT.BACKUPANDRESTORECENTER: abre o centro de backup e de restauração.
 
