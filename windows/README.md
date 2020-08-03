@@ -449,7 +449,12 @@ PATHPING: O “pathping” é uma versão avançada do ping que exibe várias in
 
 ### Fontes:
 
-``` <https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/> ```
-``` <http://computeirodadepressao.com/guia-de-comandos-do-cmd-de-todos-os-windows/>```
-``` <http://br.ccm.net/faq/1420-lista-de-comandos-do-windows> ```
-``` <http://pt.wikihow.com/Descobrir-Todos-os-Comandos-do-CMD-no-Seu-Computador> ```
+``` Fontes: ``` 
+
+<https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/>
+
+<http://computeirodadepressao.com/guia-de-comandos-do-cmd-de-todos-os-windows/>
+
+<http://br.ccm.net/faq/1420-lista-de-comandos-do-windows>
+
+<http://pt.wikihow.com/Descobrir-Todos-os-Comandos-do-CMD-no-Seu-Computador>
