@@ -12,3 +12,5 @@
 
 
 ### Visual Studio Code
+
+<https://github.com/eduardodsr/comandos/blob/master/vscode/README.md>
