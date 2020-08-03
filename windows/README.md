@@ -189,22 +189,7 @@ XCOPY: Copia diretórios com seus subdiretórios.
 
 # Comandos do Painel de Controle
 
-CPL: abre as opções de acesso
-
-CPL: abre a ferramenta Adicionar/Excluir um programa
-
-MSC: abre o gerenciador de autorizações
-
-MSC: abre os certificados para o usuário atual
-
-CLICONFG: abre a configuração dos clientes SQL
-
-CPL: abre a vizinhança imediata
-MSCou DCOMCNFG: abre a ferramenta serviços e componentes
-
-MSC: abre a ferramenta de gestão do computador
-
-COMPUTERDEFAULTS: abre a ferramenta dos programas padrão
+CONTROL: abre o Painel de controle
 
 CONTROL /NAME MICROSOFT.BACKUPANDRESTORECENTER: abre o centro de backup e de restauração .
 
@@ -228,7 +213,7 @@ CONTROL USERPASSWORDS: abre o editor de contas dos usuários
 
 CONTROL USERPASSWORDS2ou NETPLWIZ: controla os usuários e seus acessos
 
-CONTROL: abre o Painel de controle
+COMPUTERDEFAULTS: abre a ferramenta dos programas padrão
 
 CREDWIZ: abre a ferramenta de backup e de restauração de senhas dos usuários
 
@@ -242,13 +227,9 @@ LPKSETUP: abre o assistente de instalação e desinstalação dos idiomas de exi
 
 MDSCHED: abre a ferramenta de diagnósticos da memória Windows
 
-MMC: abre um novo console vazio
-
-MOBSYNC: abre o centro de sincronização
 
 MSCONFIG: abre a ferramenta de configuração do sistema
 
-ODBCAD32: abre o administrador de fonte de dados ODBC
 
 OPÇÃOALFEATURES: abre a ferramenta Adicionar/Excluír componentes do Windows
 
@@ -270,59 +251,74 @@ SYSPREP: abre a pasta com a ferramenta de preparação do sistema
 
 # Comandos de Programas e ferramentas Windows
 
-CALC: abre a calculadora
+### CALC:  
+abre a calculadora
 
-CHARMAP: abre a tabela de caracteres
+### CHARMAP: 
+abre a tabela de caracteres
 
-DIALER: abre o numerador telefônico do Windows
+### DVDPLAY: 
+abre seu leitor DVD
 
-DVDPLAY: abre seu leitor DVD
+### EXPLORER: 
+abre o Windows Explorer
 
-EUDCEDIT: abre o editor de caracteres privados
+### FSQUIRT: 
+Assistente de transferência Bluetooth
 
-EXPLORER: abre o Windows Explorer
+### IEXPLORE: 
+abre Internet Explorer
 
-FSQUIRT: Assistente de transferência Bluetooth
+### IEXPRESS: 
+abre o assistente de criação dos arquivos auto-extraíveis.
 
-IEXPLORE: abre Internet Explorer
+### MAGNIFY: 
+abre a lupa
 
-IEXPRESS: abre o assistente de criação dos arquivos auto-extraíveis.
+### MRT: 
+executa o utilitário de remoção de malwares.
 
-MAGNIFY: abre a lupa
+### MSDT: 
+abre a ferramenta de diagnósticos e suporte da Microsoft
 
-MOVIEMK: abre o Windows Movie Maker
+### MSINFO32: 
+abre as informações do sistema
 
-MRT: executa o utilitário de remoção de malwares.
+### MSPAINT: 
+abre o “Paint”
 
-MSDT: abre a ferramenta de diagnósticos e suporte da Microsoft
+### MSRA: 
+abre a assistência remota do Windows
 
-MSINFO32: abre as informações do sistema
+### MSTSC: 
+abre a ferramenta de conexão da assistência remota
 
-MSPAINT: abre o “Paint”
+### NOTEPAD: 
+abre o bloco de notas
 
-MSRA: abre a assistência remota do Windows
+### OSK: 
+abre o teclado visual.
 
-MSTSC: abre a ferramenta de conexão da assistência remota
+### SIGVERIF: 
+abre a ferramenta de verificação das assinaturas de arquivos
 
-NOTEPAD: abre o bloco de notas
+### SNDVOL: 
+abre o misturador de volume - Fones de ouvido / Alto Falante
 
-OSK: abre o teclado visual.
+### TASKMGR: 
+abre o gerenciador de tarefas do Windows
 
-SIGVERIF: abre a ferramenta de verificação das assinaturas de arquivos
+### WINVER: 
+abre a janela para que você conheça a versão do seu Windows
 
-SNDVOL: abre o misturador de volume
+### WINWORD: 
+abre o Word (se estiver instalado)
 
-SOUNDRECORDER: abre o gravador
+### WMPLAYER: 
+abre o leitor Windows Media
 
-TASKMGR: abre o gerenciador de tarefas do Windows
-
-WINVER: abre a janela para que você conheça a versão do seu Windows
-
-WINWORD: abre o Word (se estiver instalado)
-
-WMPLAYER: abre o leitor Windows Media
-
-WRITE ou WORDPAD: abre o Wordpad
+### WRITE ou WORDPAD: 
+abre o Wordpad
 
 
 
@@ -340,7 +336,6 @@ WRITE ou WORDPAD: abre o Wordpad
 
 %WINDIR% ou %SYSTEMROOT%: abre a pasta de instalação do Windows
 
-%WINDIR%\system32\rundll32.exe shell32.dll,Control_RunDLL hotplug.dll: exibe a janela “Retirar o dispositivo com segurança”
 
 
 # Fontes:
