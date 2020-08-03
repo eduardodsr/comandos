@@ -1,5 +1,7 @@
 ### Lista Geral de Comandos do Windows
 
+[https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png]
+
 
 # Guia de Comandos CMD (Terminal do Windows)
 
