@@ -271,9 +271,6 @@ Assistente de transferência Bluetooth
 ### IEXPLORE: 
 abre Internet Explorer
 
-### IEXPRESS: 
-abre o assistente de criação dos arquivos auto-extraíveis.
-
 ### MAGNIFY: 
 abre a lupa
 
@@ -328,17 +325,23 @@ abre o Wordpad
 
  ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
 
-%HOMEDRIVE%: abre o explorador na partição onde o sistema operacional está instalado.
+### %HOMEDRIVE%: 
+abre o explorador na partição onde o sistema operacional está instalado.
 
-%HOMEPATH%: abre a pasta do usuário conectado. Por exemplo C:\Usuários\[nome do usuário]
+### %HOMEPATH%: 
+abre a pasta do usuário conectado. Por exemplo C:\Usuários\[nome do usuário]
 
-%PROGRAMFILES%: abre a pasta de instalação de outros programas (Program Files)
+### %PROGRAMFILES%: 
+abre a pasta de instalação de outros programas (Program Files)
 
-%TEMP% ou %TMP%: abre a pasta temporária
+### %TEMP% ou %TMP%: 
+abre a pasta temporária
 
-%USERPROFILE%: abre a pasta do perfil do usuário conectado
+### %USERPROFILE%: 
+abre a pasta do perfil do usuário conectado
 
-%WINDIR% ou %SYSTEMROOT%: abre a pasta de instalação do Windows
+### %WINDIR% ou %SYSTEMROOT%: 
+abre a pasta de instalação do Windows
 
 
 
