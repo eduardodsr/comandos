@@ -14,18 +14,24 @@ Guia de Comandos CMD (Terminal do Windows)
 
 ### Lista Geral de Comandos
 
-``` ### ```DIR:  – Listando arquivos e pastas 
+### ```DIR:```  – Listando arquivos e pastas 
 
-``` ### ``` COPY:  – Copiar arquivos
+### ```COPY:```  – Copiar arquivos
 
-''' MOVE: ''' – Mover arquivos ou renomear pastas
-''' MD: ''' – Criar uma Nova pasta
-CD: Entrar em uma pasta
-.:Retornar para a pasta anterior
-RD:  Remover pastas
-ERASE: Deletar arquivos
-DEL:  Deletar arquivos
-REN: Renomear arquivos (EX: ren imagem.jpg foto.jpg)
+### ```MOVE:``` – Mover arquivos ou renomear pastas
+
+### ```MD:``` – Criar uma Nova pasta
+
+### ```CD```Entrar em uma pasta
+
+### ```RD``` Remover pastas
+
+### ```ERASE``` Deletar arquivos
+
+### ```DEL```  Deletar arquivos
+
+### ```REN``` Renomear arquivos (EX: ren imagem.jpg foto.jpg)
+
 TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
 BOOTCFG: Permite ver as configurações do seu menu de boot
 DEFRAG: Desfragmentador de disco.
