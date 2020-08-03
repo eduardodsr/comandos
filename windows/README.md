@@ -14,9 +14,11 @@ Guia de Comandos CMD (Terminal do Windows)
 
 ### Lista Geral de Comandos
 
-### ```DIR:```  – Listando arquivos e pastas 
+### DIR:  
+– Listando arquivos e pastas 
 
-### ```COPY:```  – Copiar arquivos
+### COPY:  
+– Copiar arquivos
 
 ### ```MOVE:``` – Mover arquivos ou renomear pastas
 
