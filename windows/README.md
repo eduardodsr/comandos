@@ -251,6 +251,8 @@ SYSPREP: abre a pasta com a ferramenta de preparação do sistema
 
 # Comandos de Programas e ferramentas Windows
 
+ ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
+
 ### CALC:  
 abre a calculadora
 
@@ -323,6 +325,8 @@ abre o Wordpad
 
 
 # Atalhos, paths e comandos adicionais:
+
+ ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
 
 %HOMEDRIVE%: abre o explorador na partição onde o sistema operacional está instalado.
 
