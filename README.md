@@ -1,2 +1,7 @@
 # comandos
- Os principais comandos
+
+### Windows
+
+### Linux
+
+### Visual Studio Code
