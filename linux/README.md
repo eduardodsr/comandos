@@ -144,5 +144,4 @@ Remover um usuário é muito semelhante a adicionar um novo usuário. Para exclu
 ### Fontes: 
 
 ``` Fonte: ```
-
 <https://www.hostinger.com.br/tutoriais/comandos-linux>
