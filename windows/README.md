@@ -1,6 +1,9 @@
 ### Lista Geral de Comandos do Windows
 
-[https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png]
+Abrir o Executar - Tecla de Atalho do logotipo do Windows + R.
+
+ ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
+
 
 
 # Guia de Comandos CMD (Terminal do Windows)
@@ -53,8 +56,6 @@ TASKKILL: Permite finalizar algum processo. O comando é quase sempre usado com 
 
 
 ASSOC: Exibe ou modifica associações de extensões de arquivo.
-
-AT: Agenda comandos e programas para serem executados em um computador.
 
 ATTRIB: Exibe ou altera atributos de arquivos.
 
@@ -230,45 +231,21 @@ CONTROL: abre o Painel de controle
 
 CREDWIZ: abre a ferramenta de backup e de restauração de senhas dos usuários
 
-CPL: abre as configurações de exibição
-
-MSC: abre o gerenciador de periféricos.
-
 DXDIAG: abre a ferramenta de diagnóstico DirectX
 
 EVENTVWR ou EVENTVWR.MSC: abre o observador de eventos
 
-MSC: abre as pastas compartilhadas
-
-CPL: abre o assistente “adicionar hardware”
-
-CPL: abre o assistente “compatibilidade de programas”
-
-CPL: abre o gerenciador de infravermelho
-
 ISCSICPL: abre a ferramenta de configuração do iniciador ISCI Microsoft
 
-CPL: abre a ferramenta do controlador de jogos
-
 LPKSETUP: abre o assistente de instalação e desinstalação dos idiomas de exibição
-
-MSC: abre o editor dos usuários e grupos locais
 
 MDSCHED: abre a ferramenta de diagnósticos da memória Windows
 
 MMC: abre um novo console vazio
 
-CPL: abre as configurações de som
-
 MOBSYNC: abre o centro de sincronização
 
 MSCONFIG: abre a ferramenta de configuração do sistema
-
-MSC: abre a ferramenta de configuração do cliente NAP
-
-MSC: abre o gerenciador de suporte de armazenamento removível
-
-MSC: abre as solicitações do operador de armazenamento removível
 
 ODBCAD32: abre o administrador de fonte de dados ODBC
 
@@ -276,21 +253,11 @@ OPÇÃOALFEATURES: abre a ferramenta Adicionar/Excluír componentes do Windows
 
 PERFMON ou PERFMON.MSC: abre o monitor de confiabilidade e de desempenho Windows.
 
-CPL: abre o gerenciador de modos de alimentação
-
 REGEDIT ou REGEDT32: abre o editor de registro
 
 REKEYWIZ: abre o gerenciador de certificados de criptografia de arquivos
 
-MSC: abre o jogo de estratégia resultante
-
-MSC: abre as configurações de segurança local
-
-MSC: abre o gerenciador de serviços
-
 SLUI: abre o assistente de ativação do Windows
-
-CPL: abre as propriedades do sistema
 
 SYSEDIT: abre o editor de configuração do sistema (Atenção, manipular com cautela)
 
@@ -298,21 +265,6 @@ SYSKEY: abre o utilitário de proteção do banco de dados das contas Windows (A
 
 SYSPREP: abre a pasta com a ferramenta de preparação do sistema
 
-CPL: abre as configurações para o Tablet pc
-
-MSC ou CONTROL SCHEDTASKS: abre o planejador de tarefas
-
-CPL: abre a ferramenta de conexão telefônica
-
-CPL: abre as configurações da hora e da data
-
-MSC: abre a ferramenta de gestão do módulo de plataforma segura no computador local
-
-UTILMAN: abre as opções de ergonomia (Central de Facilidades de Acesso)
-
-MSC: abre o “Windows Management Infrastructure”
-
-CPL: abre o centro de segurança Windows
 
 
 # Comandos de Programas e ferramentas Windows
@@ -372,33 +324,6 @@ WMPLAYER: abre o leitor Windows Media
 WRITE ou WORDPAD: abre o Wordpad
 
 
-# Comandos de Gestão de discos
-
-CHKDSK: realiza uma análise da partição especificada nas configurações do comando (Para mais informações, digite CHKDSK /? no interpretador de comandos CMD)
-
-CLEANMGR: abre a ferramenta de limpeza do disco
-
-DEFRAG: Desfragmenta o disco rígido
-
-MSC: abre a ferramenta de desfragmentação do disco
-
-MSC: abre o gerenciador de discos
-
-DISKPART: abre a ferramenta de particionamento (manipulação pesada)
-
-
-# Comandos de Gestão das Redes e Internet
-
-CONTROL NETCONNECTIONS ou NCPA.CPL: abre as conexões da rede
-
-CPL: abre o firewall do Windows
-
-CPL: abre as propriedades da internet
-
-IPCONFIG: exibe as configuraçãos dos endereços IP no computador
-
-MSC: abre as funções avançadas do firewall do Windows
-
 
 # Atalhos, paths e comandos adicionais:
 
@@ -416,40 +341,8 @@ MSC: abre as funções avançadas do firewall do Windows
 
 %WINDIR%\system32\rundll32.exe shell32.dll,Control_RunDLL hotplug.dll: exibe a janela “Retirar o dispositivo com segurança”
 
-CPL: abre as propriedades do filtro AC3 (se estiver instalado)
 
-FIREFOX: executa Mozilla FireFox (se estiver instalado)
-
-JAVAWS: Visualiza o cache do software JAVA (se estiver instalado)
-
-LOGOFF: fecha a sessão
-
-NETPROJ: autoriza ou não a conexão a um projetor de rede
-
-SFC /SCANNOW: varre, imediatamente, todos os arquivos do sistema e localiza os que estão danificados
-
-SFC /VERIFYONLY: varre apenas os arquivos do sistema
-
-SFC /SCANFILE=”nome e caminho do arquivo”: varre o arquivo especificado e repara, caso esteja danificado.
-
-SFC /VERIFYFILE=”nome e caminho do arquivo”: varre apenas o arquivo especificado
-
-SFC /SCANONCE: varre os arquivos do sistema no arranque seguinte
-
-SFC /REVERT: repõe a configuração inicial (Para mais informações, digite SFC /? no interpretador de comandos)
-
-SHUTDOWN: desliga o Windows
-
-SHUTDOWN -A: interrompe a desconexão do Windows
-
-DRIVERQUERY:  O driverquery é uma ferramenta que fornece informações sobre os drivers de hardware instalados em seu computador. Você pode usar o comando driverquery -v ou driverquery -si
-
-POWERCFG:  é um comando que lhe ajuda a habilitar recursos e obter várias informações sobre a energia do computador, como habilitar a hibernação e obter informações sobre o consumo de energia do Windows.
-
-PATHPING: O “pathping” é uma versão avançada do ping que exibe várias informações sobre a rota dos pacotes e lhe ajuda a descobrir onde está o problema. Como o ping, digite “pathping” + o nome ou o endereço IP do host.
-
-
-### Fontes:
+# Fontes:
 
 ``` Fontes: ``` 
 
