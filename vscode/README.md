@@ -1,6 +1,8 @@
 # Visual Studio Code
 
-### Os principais atalhos do VS Code (Windows/Linux)!
+Os principais atalhos do VS Code (Windows/Linux):
+
+
 
 ### Completar código
 Ctrl + Space
