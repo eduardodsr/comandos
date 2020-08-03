@@ -9,76 +9,29 @@ Abrir o Executar - Tecla de Atalho do logotipo do Windows + R.
 
 # Guia de Comandos CMD (Terminal do Windows)
 
-DIR:   Listando arquivos e pastas 
-
-COPY:   Copiar arquivos
-
-MOVE:   Mover arquivos ou renomear pastas
-
-MD:   Criar uma Nova pasta
-
-CD:   Entrar em uma pasta
-
-RD:   Remover pastas
-
-DEL:   Deletar arquivos
-
-REN:  Renomear arquivos (EX: ren imagem.jpg foto.jpg)
-
-TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
-
-BOOTCFG: Permite ver as configurações do seu menu de boot
-
-DEFRAG: Desfragmentador de disco.
-
-DISKPART: Gerencia as partições de um disco.
-
-DRIVERQUERY: Mostra a lista de drivers instalados no Windows e as respectivas propriedades.
-
-FSUTIL: O comando fsutil tem vários complementos que serão listados digitando-o sem nenhum parâmetro. Digite fsutil fsingo drives e terá a lista dos drives no seu micro.
-
-GEPRESULT: Este comando mostrará configurações de usuários e de diretivas de grupos.
-
-RECOVER: Permite a recuperação de arquvios em disco danificado.
-
-REG: Comando para exportar chaves do registro, copiar, restaurar, comparar, etc.
-
-SCHTASKS: Para agendar, executar, alterar ou deletar tarefas numa máquina local ou remota com Windows.
-
-SFC: Comando que permite verificar arquivos de sistemas alterados de forma indevida e recuperar os arquivos originais e oficiais da Microsoft, o que nem sempre será recomendável. Por exemplo, o arquivo uxtheme.dll modificado para permitir o uso de temas voltaria a ser substituído pelo original.
-
-SHUTDOWN: O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada.
-
-SYSTEMINFO: Fornece informações básicas sobre o sistema.
-
-TASKLIST: Mostra a lista de processos sendo executados no Windows.
-
-TASKKILL: Permite finalizar algum processo. O comando é quase sempre usado com base nas informações fornecidas pelo tasklist. Por exemplo, para finalizar o Messenger digite “taskkill /PID 1680”. A identificação do PID de cada processo sendo executado você ficará sabendo com o comando tasklist.
-
-
 ASSOC: Exibe ou modifica associações de extensões de arquivo.
 
 ATTRIB: Exibe ou altera atributos de arquivos.
 
-BOOTCFG: Mostra o boot.ini no prompt de comando
+BOOTCFG: Mostra o boot.ini no prompt de comando. Permite ver as configurações do seu menu de boot
 
 BREAK: Define ou limpa a verificação estendida CTRL+C.
 
-CACLS: Exibe ou modifica listas de controle de acesso (ACLs) de arquivos.
-
 CALL: Chama um programa em lotes a partir de outro.
+
+### CD:   Entrar em uma pasta
 
 CHCP: Exibe ou define o número da página de código ativa.
 
-CHKDSK: Verifica um disco e exibe um relatório de status.
+### CHKDSK: Verifica um disco e exibe um relatório de status.
 
 CHKNTFS: Exibe ou modifica a verificação do disco na inicialização.
 
-CLS: Limpa a tela
+### CLS: Limpa a tela
 
-CMD: Abre uma outra janela de prompt.
+### CMD: Abre uma outra janela de prompt.
 
-COLOR: Define as cores padrão de primeiro plano e do plano de fundo do console
+COLOR: Define as cores padrão de primeiro plano e do plano de fundo do console.
 
 COMP: Compara o conteúdo de dois arquivos ou grupos de arquivos.
 
@@ -86,25 +39,33 @@ COMPACT: Exibe ou altera a compactação de arquivos.
 
 CONVERT: Converte volumes FAT em NTFS.
 
-COPY: Copia um ou mais arquivos para outro local.
+### COPY:   Copiar arquivos. Copia um ou mais arquivos para outro local.
 
 DATE: Mostra a data atual e permite alterá-la.
+
+### DEFRAG: Desfragmentador de disco.
+
+### DEL:   Deletar arquivos
+
+### DIR:   Listando arquivos e pastas 
 
 DISKCOMP: Compara o conteúdo de dois disquetes.
 
 DISKCOPY: Copia o conteúdo de um disquete para outro.
 
-DISKPART: Faz particionamento de disco
+DISKPART: Faz particionamento de disco. Gerencia as partições de um disco.
 
 DOSKEY: Edita linhas de comando, volta a chamar comandos do Windows e cria macros.
+
+DRIVERQUERY: Mostra a lista de drivers instalados no Windows e as respectivas propriedades.
 
 ECHO: Exibe mensagens ou ativa ou desativa o eco de comandos.
 
 ENDLOCAL: Encerra a localização de alterações de ambiente em um arquivo em lotes.
 
-EXIT: Sai do programa CMD.EXE (interpretador de comandos).
+### EXIT: Sai do programa CMD.EXE (interpretador de comandos).
 
-FC:Compara dois arquivos ou grupos de arquivos e exibe as diferenças entre eles.
+FC:  Compara dois arquivos ou grupos de arquivos e exibe as diferenças entre eles.
 
 FIND: Procura uma seqüência de texto em um arquivo ou arquivos.
 
@@ -112,65 +73,91 @@ FINDSTR: Procura seqüências de texto em arquivos.
 
 FOR: Executa um determinado comando para cada arquivo em um grupo de arquivos.
 
-FORMAT: Formata um disco rígido ou disquete.
+### FORMAT: Formata um disco rígido ou disquete.
+
+FSUTIL: O comando fsutil tem vários complementos que serão listados digitando-o sem nenhum parâmetro. Digite fsutil fsingo drives e terá a lista dos drives no seu micro.
 
 FTYPE: Exibe ou modifica os tipos de arquivo utilizados em associações de extensões de arquivos.
+
+GEPRESULT: Este comando mostrará configurações de usuários e de diretivas de grupos.
 
 GOTO: Direciona o interpretador de comandos do Windows para uma linha identificada em um programa em lotes.
 
 GRAFTABL: Permite que o Windows exiba um conjunto de caracteres estendidos em modo gráfico.
 
-HELP: Fornece informações de ajuda sobre comandos do Windows.
+### HELP: Fornece informações de ajuda sobre comandos do Windows.
 
 HOSTNAME: Dá o nome do host
 
 IF: Realiza processamento condicional em arquivos em lotes.
 
-IPCONFIG: Mostra detalhes das configurações de IP
+### IPCONFIG: Mostra detalhes das configurações de IP
 
 LABEL: Cria, altera ou exclui o rótulo de volume de um disco.
+
+### MD:   Criar uma Nova pasta
 
 MODE: Configura um dispositivo do sistema.
 
 MORE: Exibe a saída fazendo pausa a cada tela.
 
-MOVE: Move um ou mais arquivos de uma pasta para outra pasta.
-
+MOVE: Mover arquivos ou renomear pastas. Move um ou mais arquivos de uma pasta para outra pasta.
+ 
 PAGEFILECONFIG: Configura memória virtual
 
 PATH: Exibe ou define um caminho de pesquisa para arquivos executáveis.
 
 PAUSE: Suspende o processamento de um arquivo em lotes e exibe uma mensagem.
 
-PING: Checa sua conexão de rede disponível
+### PING: Checa sua conexão de rede disponível
 
 POPD: Restaura o valor anterior da pasta atual salva por PUSHD.
 
 PRINT: Imprime um arquivo de texto.
 
-PROMPT: Altera o prompt de comando do Windows.
+### PROMPT: Altera o prompt de comando do Windows.
 
 PUSHD: Salva a pasta atual e, em seguida, altera a mesma.
 
+RD:   Remover pastas
+
+RECOVER: Permite a recuperação de arquvios em disco danificado.
+
+REG: Comando para exportar chaves do registro, copiar, restaurar, comparar, etc.
+
 REM: Grava comentários (observações) em arquivos em lotes.
 
-REPLACE: Substitui arquivos.
+### REN:  Renomear arquivos (EX: ren imagem.jpg foto.jpg)
+
+### REPLACE: Substitui arquivos.
 
 ROUT: Mostra detalhes do parâmetro da interface de rede
 
-SCHTASKS: Agenda e executa algum processo
+SCHTASKS: Agenda e executa algum processo. Para agendar, executar, alterar ou deletar tarefas numa máquina local ou remota com Windows.
 
 SET: Exibe, define ou remove variáveis de ambiente do Windows.
 
 SETLOCAL: Inicia a localização de alterações de ambiente em um arquivo em lotes.
 
+SFC: Comando que permite verificar arquivos de sistemas alterados de forma indevida e recuperar os arquivos originais e oficiais da Microsoft, o que nem sempre será recomendável. Por exemplo, o arquivo uxtheme.dll modificado para permitir o uso de temas voltaria a ser substituído pelo original.
+
 SHIFT: Altera a posição dos parâmetros substituíveis em um arquivo em lotes.
+
+### SHUTDOWN: O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada.
 
 SORT: Classifica a entrada.
 
 START: Inicia uma janela separada para executar um programa ou comando especificado.
 
 SUBST: Associa um caminho a uma letra de unidade.
+
+SYSTEMINFO: Fornece informações básicas sobre o sistema.
+
+TASKKILL: Permite finalizar algum processo. O comando é quase sempre usado com base nas informações fornecidas pelo tasklist. Por exemplo, para finalizar o Messenger digite “taskkill /PID 1680”. A identificação do PID de cada processo sendo executado você ficará sabendo com o comando tasklist.
+
+### TASKLIST: Mostra a lista de processos sendo executados no Windows.
+
+TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
 
 TITLE: Define o título da janela para uma sessão do CMD.EXE.
 
@@ -189,9 +176,10 @@ XCOPY: Copia diretórios com seus subdiretórios.
 
 # Comandos do Painel de Controle
 
-CONTROL: abre o Painel de controle
+### CONTROL: 
+abre o Painel de controle
 
-CONTROL /NAME MICROSOFT.BACKUPANDRESTORECENTER: abre o centro de backup e de restauração .
+CONTROL /NAME MICROSOFT.BACKUPANDRESTORECENTER: abre o centro de backup e de restauração.
 
 CONTROL ADMINTOOLS: abre as ferramentas de administração
 
@@ -213,39 +201,35 @@ CONTROL USERPASSWORDS: abre o editor de contas dos usuários
 
 CONTROL USERPASSWORDS2ou NETPLWIZ: controla os usuários e seus acessos
 
-COMPUTERDEFAULTS: abre a ferramenta dos programas padrão
+### COMPUTERDEFAULTS: 
+abre a ferramenta dos programas padrão
 
-CREDWIZ: abre a ferramenta de backup e de restauração de senhas dos usuários
+### CREDWIZ: 
+abre a ferramenta de backup e de restauração de senhas dos usuários
 
-DXDIAG: abre a ferramenta de diagnóstico DirectX
+### EVENTVWR ou EVENTVWR.MSC: 
+abre o Gerenciador de eventos
 
-EVENTVWR ou EVENTVWR.MSC: abre o observador de eventos
+### LPKSETUP: 
+abre o assistente de instalação e desinstalação dos idiomas de exibição
 
-ISCSICPL: abre a ferramenta de configuração do iniciador ISCI Microsoft
+### MDSCHED: 
+abre a ferramenta de diagnósticos da memória Windows
 
-LPKSETUP: abre o assistente de instalação e desinstalação dos idiomas de exibição
+### MSCONFIG: 
+abre a ferramenta de configuração do sistema
 
-MDSCHED: abre a ferramenta de diagnósticos da memória Windows
+### PERFMON ou PERFMON.MSC: 
+abre o monitor de desempenho Windows.
 
+###  REGEDIT ou REGEDT32: 
+abre o editor de registro
 
-MSCONFIG: abre a ferramenta de configuração do sistema
+### SLUI: 
+abre o assistente de ativação do Windows
 
-
-OPÇÃOALFEATURES: abre a ferramenta Adicionar/Excluír componentes do Windows
-
-PERFMON ou PERFMON.MSC: abre o monitor de confiabilidade e de desempenho Windows.
-
-REGEDIT ou REGEDT32: abre o editor de registro
-
-REKEYWIZ: abre o gerenciador de certificados de criptografia de arquivos
-
-SLUI: abre o assistente de ativação do Windows
-
-SYSEDIT: abre o editor de configuração do sistema (Atenção, manipular com cautela)
-
-SYSKEY: abre o utilitário de proteção do banco de dados das contas Windows (Atenção, manipular com extrema cautela !)
-
-SYSPREP: abre a pasta com a ferramenta de preparação do sistema
+### SYSPREP: 
+abre a pasta com a ferramenta de preparação do sistema
 
 
 
