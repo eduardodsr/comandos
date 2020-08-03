@@ -3,7 +3,8 @@
 Abrir o Executar - Tecla de Atalho do logotipo do Windows + R.
 
  ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
-
+ 
+ Para abrir o Terminal do Windows: Abrir o Executar. Escrever a palavra cmd <enter>.
 
 
 # Guia de Comandos CMD (Terminal do Windows)
