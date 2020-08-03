@@ -1,8 +1,7 @@
-```html ### Comandos Linux 
+### Comandos Linux 
 
-```html
+```Fonte: https://www.hostinger.com.br/tutoriais/comandos-linux
 
-```
 
 ### 1. ``` Comando pwd ```
 Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que e basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
