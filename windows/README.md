@@ -1,11 +1,23 @@
+### Guia de Comandos CMD (Terminal do Windows)
+
+``` ### ``` Fonte: https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/ ```
+
+
+### 1. ``` Comando pwd ```
+Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que e basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
+
+
+
 Guia de Comandos CMD (Terminal do Windows)
 
 
 
 ### Lista Geral de Comandos
 
-''' DIR: '''  – Listando arquivos e pastas 
-''' COPY: '''  – Copiar arquivos
+``` ### ```DIR:  – Listando arquivos e pastas 
+
+``` ### ``` COPY:  – Copiar arquivos
+
 ''' MOVE: ''' – Mover arquivos ou renomear pastas
 ''' MD: ''' – Criar uma Nova pasta
 CD: Entrar em uma pasta
