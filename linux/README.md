@@ -1,7 +1,5 @@
 ### Comandos Linux 
 
-``` Fonte: https://www.hostinger.com.br/tutoriais/comandos-linux ```
-
 
 ### 1. ``` Comando pwd ```
 Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que e basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
@@ -141,3 +139,10 @@ Se você quiser saber o nome do seu host/network (da sua rede), basta digitar ho
 Como o Linux é um sistema multiusuário, isso significa que mais de uma pessoa pode interagir com o mesmo sistema ao mesmo tempo. useradd é usado para criar um novo usuário, enquanto passwd adiciona uma nova senha à conta deste usuário. Para criar um novo usuário chamado João, adicionar user e adicione seu tipo de senha, passwd 12345678.
 
 Remover um usuário é muito semelhante a adicionar um novo usuário. Para excluir o tipo de conta de usuário, userdel username.
+
+
+### Fontes: 
+
+``` Fonte: ```
+
+<https://www.hostinger.com.br/tutoriais/comandos-linux>
