@@ -19,17 +19,17 @@ BREAK: Define ou limpa a verificação estendida CTRL+C.
 
 CALL: Chama um programa em lotes a partir de outro.
 
-#### CD:   Entrar em uma pasta
+### CD:   Entrar em uma pasta
 
 CHCP: Exibe ou define o número da página de código ativa.
 
-###### CHKDSK: Verifica um disco e exibe um relatório de status.
+### CHKDSK: Verifica um disco e exibe um relatório de status.
 
 CHKNTFS: Exibe ou modifica a verificação do disco na inicialização.
 
-###### CLS: Limpa a tela
+### CLS: Limpa a tela
 
-###### CMD: Abre uma outra janela de prompt.
+### CMD: Abre uma outra janela de prompt.
 
 COLOR: Define as cores padrão de primeiro plano e do plano de fundo do console.
 
@@ -39,15 +39,15 @@ COMPACT: Exibe ou altera a compactação de arquivos.
 
 CONVERT: Converte volumes FAT em NTFS.
 
-###### COPY:   Copiar arquivos. Copia um ou mais arquivos para outro local.
+### COPY:   Copiar arquivos. Copia um ou mais arquivos para outro local.
 
 DATE: Mostra a data atual e permite alterá-la.
 
-###### DEFRAG: Desfragmentador de disco.
+### DEFRAG: Desfragmentador de disco.
 
-###### DEL:   Deletar arquivos
+### DEL:   Deletar arquivos
 
-###### DIR:   Listando arquivos e pastas 
+### DIR:   Listando arquivos e pastas 
 
 DISKCOMP: Compara o conteúdo de dois disquetes.
 
@@ -63,7 +63,7 @@ ECHO: Exibe mensagens ou ativa ou desativa o eco de comandos.
 
 ENDLOCAL: Encerra a localização de alterações de ambiente em um arquivo em lotes.
 
-###### EXIT: Sai do programa CMD.EXE (interpretador de comandos).
+### EXIT: Sai do programa CMD.EXE (interpretador de comandos).
 
 FC:  Compara dois arquivos ou grupos de arquivos e exibe as diferenças entre eles.
 
@@ -73,7 +73,7 @@ FINDSTR: Procura seqüências de texto em arquivos.
 
 FOR: Executa um determinado comando para cada arquivo em um grupo de arquivos.
 
-###### FORMAT: Formata um disco rígido ou disquete.
+### FORMAT: Formata um disco rígido ou disquete.
 
 FSUTIL: O comando fsutil tem vários complementos que serão listados digitando-o sem nenhum parâmetro. Digite fsutil fsingo drives e terá a lista dos drives no seu micro.
 
@@ -85,23 +85,23 @@ GOTO: Direciona o interpretador de comandos do Windows para uma linha identifica
 
 GRAFTABL: Permite que o Windows exiba um conjunto de caracteres estendidos em modo gráfico.
 
-###### HELP: Fornece informações de ajuda sobre comandos do Windows.
+### HELP: Fornece informações de ajuda sobre comandos do Windows.
 
 HOSTNAME: Dá o nome do host
 
 IF: Realiza processamento condicional em arquivos em lotes.
 
-###### IPCONFIG: Mostra detalhes das configurações de IP
+### IPCONFIG: Mostra detalhes das configurações de IP
 
 LABEL: Cria, altera ou exclui o rótulo de volume de um disco.
 
-###### MD:   Criar uma Nova pasta
+### MD:   Criar uma Nova pasta
 
 MODE: Configura um dispositivo do sistema.
 
 MORE: Exibe a saída fazendo pausa a cada tela.
 
-MOVE: Mover arquivos ou renomear pastas. Move um ou mais arquivos de uma pasta para outra pasta.
+### MOVE: Mover arquivos ou renomear pastas. Move um ou mais arquivos de uma pasta para outra pasta.
  
 PAGEFILECONFIG: Configura memória virtual
 
@@ -109,13 +109,13 @@ PATH: Exibe ou define um caminho de pesquisa para arquivos executáveis.
 
 PAUSE: Suspende o processamento de um arquivo em lotes e exibe uma mensagem.
 
-###### PING: Checa sua conexão de rede disponível
+### PING: Checa sua conexão de rede disponível
 
 POPD: Restaura o valor anterior da pasta atual salva por PUSHD.
 
 PRINT: Imprime um arquivo de texto.
 
-###### PROMPT: Altera o prompt de comando do Windows.
+### PROMPT: Altera o prompt de comando do Windows.
 
 PUSHD: Salva a pasta atual e, em seguida, altera a mesma.
 
@@ -127,9 +127,9 @@ REG: Comando para exportar chaves do registro, copiar, restaurar, comparar, etc.
 
 REM: Grava comentários (observações) em arquivos em lotes.
 
-###### REN:  Renomear arquivos (EX: ren imagem.jpg foto.jpg)
+### REN:  Renomear arquivos (EX: ren imagem.jpg foto.jpg)
 
-###### REPLACE: Substitui arquivos.
+### REPLACE: Substitui arquivos.
 
 ROUT: Mostra detalhes do parâmetro da interface de rede
 
@@ -143,7 +143,7 @@ SFC: Comando que permite verificar arquivos de sistemas alterados de forma indev
 
 SHIFT: Altera a posição dos parâmetros substituíveis em um arquivo em lotes.
 
-###### SHUTDOWN: O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada.
+### SHUTDOWN: O comando shutdown permite desligar ou reiniciar o computador de forma imediata ou agendada.
 
 SORT: Classifica a entrada.
 
@@ -151,18 +151,18 @@ START: Inicia uma janela separada para executar um programa ou comando especific
 
 SUBST: Associa um caminho a uma letra de unidade.
 
-###### SYSTEMINFO: Fornece informações básicas sobre o sistema.
+### SYSTEMINFO: Fornece informações básicas sobre o sistema.
 
-###### TASKKILL: 
+### TASKKILL: 
 Permite finalizar algum processo. O comando é quase sempre usado com base nas informações fornecidas pelo tasklist. Por exemplo, para finalizar o Messenger digite “taskkill /PID 1680”. A identificação do PID de cada processo sendo executado você ficará sabendo com o comando tasklist.
 
 ### TASKLIST: Mostra a lista de processos sendo executados no Windows.
 
-TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
+### TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
 
 TITLE: Define o título da janela para uma sessão do CMD.EXE.
 
-TREE: Exibe graficamente a estrutura de pastas de uma unidade ou caminho.
+### TREE: Exibe graficamente a estrutura de pastas de uma unidade ou caminho.
 
 TYPE: Exibe o conteúdo de um arquivo de texto.
 
@@ -176,6 +176,8 @@ XCOPY: Copia diretórios com seus subdiretórios.
 
 
 # Comandos do Painel de Controle
+
+ ![](https://github.com/eduardodsr/comandos/blob/master/windows/atalho.png?raw=true)
 
 ### CONTROL: 
 abre o Painel de controle
