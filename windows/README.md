@@ -1,38 +1,23 @@
-### Guia de Comandos CMD (Terminal do Windows)
-
-``` ### ``` Fonte: https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/ ```
+### Lista Geral de Comandos do Windows
 
 
-### 1. ``` Comando pwd ```
-Use o comando pwd para encontrar o caminho para o diretório atual (da pasta) em que você está. O comando vai retornar um caminho completo (cheio), que e basicamente um caminho que começa com uma barra inclinada (/). Um exemplo de um caminho completo é /home/username.
+# Guia de Comandos CMD (Terminal do Windows)
 
+DIR:   Listando arquivos e pastas 
 
+COPY:   Copiar arquivos
 
-Guia de Comandos CMD (Terminal do Windows)
+MOVE:   Mover arquivos ou renomear pastas
 
+MD:   Criar uma Nova pasta
 
+CD:   Entrar em uma pasta
 
-### Lista Geral de Comandos
+RD:   Remover pastas
 
-### DIR:  
-– Listando arquivos e pastas 
+DEL:   Deletar arquivos
 
-### COPY:  
-– Copiar arquivos
-
-### ```MOVE:``` – Mover arquivos ou renomear pastas
-
-### ```MD:``` – Criar uma Nova pasta
-
-### ```CD```Entrar em uma pasta
-
-### ```RD``` Remover pastas
-
-### ```ERASE``` Deletar arquivos
-
-### ```DEL```  Deletar arquivos
-
-### ```REN``` Renomear arquivos (EX: ren imagem.jpg foto.jpg)
+REN:  Renomear arquivos (EX: ren imagem.jpg foto.jpg)
 
 TIME:  O comando time permite acertar a hora e o comando date permite corrigir a data.
 
@@ -63,6 +48,7 @@ SYSTEMINFO: Fornece informações básicas sobre o sistema.
 TASKLIST: Mostra a lista de processos sendo executados no Windows.
 
 TASKKILL: Permite finalizar algum processo. O comando é quase sempre usado com base nas informações fornecidas pelo tasklist. Por exemplo, para finalizar o Messenger digite “taskkill /PID 1680”. A identificação do PID de cada processo sendo executado você ficará sabendo com o comando tasklist.
+
 
 ASSOC: Exibe ou modifica associações de extensões de arquivo.
 
@@ -197,7 +183,7 @@ VOL: Exibe um rótulo e número de série de volume de disco.
 XCOPY: Copia diretórios com seus subdiretórios.
 
 
-### Comandos do Painel de Controle
+# Comandos do Painel de Controle
 
 CPL: abre as opções de acesso
 
@@ -327,7 +313,7 @@ MSC: abre o “Windows Management Infrastructure”
 CPL: abre o centro de segurança Windows
 
 
-### Comandos de Programas e ferramentas Windows
+# Comandos de Programas e ferramentas Windows
 
 CALC: abre a calculadora
 
@@ -384,40 +370,86 @@ WMPLAYER: abre o leitor Windows Media
 WRITE ou WORDPAD: abre o Wordpad
 
 
-### Comandos de Gestão de discos
+# Comandos de Gestão de discos
+
 CHKDSK: realiza uma análise da partição especificada nas configurações do comando (Para mais informações, digite CHKDSK /? no interpretador de comandos CMD)
+
 CLEANMGR: abre a ferramenta de limpeza do disco
+
 DEFRAG: Desfragmenta o disco rígido
+
 MSC: abre a ferramenta de desfragmentação do disco
+
 MSC: abre o gerenciador de discos
+
 DISKPART: abre a ferramenta de particionamento (manipulação pesada)
-Comandos de Gestão das Redes e Internet
+
+
+# Comandos de Gestão das Redes e Internet
+
 CONTROL NETCONNECTIONS ou NCPA.CPL: abre as conexões da rede
+
 CPL: abre o firewall do Windows
+
 CPL: abre as propriedades da internet
+
 IPCONFIG: exibe as configuraçãos dos endereços IP no computador
+
 MSC: abre as funções avançadas do firewall do Windows
-Atalhos, paths e comandos adicionais:
+
+
+# Atalhos, paths e comandos adicionais:
+
 %HOMEDRIVE%: abre o explorador na partição onde o sistema operacional está instalado.
+
 %HOMEPATH%: abre a pasta do usuário conectado. Por exemplo C:\Usuários\[nome do usuário]
+
 %PROGRAMFILES%: abre a pasta de instalação de outros programas (Program Files)
+
 %TEMP% ou %TMP%: abre a pasta temporária
+
 %USERPROFILE%: abre a pasta do perfil do usuário conectado
+
 %WINDIR% ou %SYSTEMROOT%: abre a pasta de instalação do Windows
+
 %WINDIR%\system32\rundll32.exe shell32.dll,Control_RunDLL hotplug.dll: exibe a janela “Retirar o dispositivo com segurança”
+
 CPL: abre as propriedades do filtro AC3 (se estiver instalado)
+
 FIREFOX: executa Mozilla FireFox (se estiver instalado)
+
 JAVAWS: Visualiza o cache do software JAVA (se estiver instalado)
+
 LOGOFF: fecha a sessão
+
 NETPROJ: autoriza ou não a conexão a um projetor de rede
+
 SFC /SCANNOW: varre, imediatamente, todos os arquivos do sistema e localiza os que estão danificados
+
 SFC /VERIFYONLY: varre apenas os arquivos do sistema
+
 SFC /SCANFILE=”nome e caminho do arquivo”: varre o arquivo especificado e repara, caso esteja danificado.
+
 SFC /VERIFYFILE=”nome e caminho do arquivo”: varre apenas o arquivo especificado
+
 SFC /SCANONCE: varre os arquivos do sistema no arranque seguinte
+
 SFC /REVERT: repõe a configuração inicial (Para mais informações, digite SFC /? no interpretador de comandos)
+
 SHUTDOWN: desliga o Windows
+
 SHUTDOWN -A: interrompe a desconexão do Windows
+
 DRIVERQUERY:  O driverquery é uma ferramenta que fornece informações sobre os drivers de hardware instalados em seu computador. Você pode usar o comando driverquery -v ou driverquery -si
+
 POWERCFG:  é um comando que lhe ajuda a habilitar recursos e obter várias informações sobre a energia do computador, como habilitar a hibernação e obter informações sobre o consumo de energia do Windows.
+
 PATHPING: O “pathping” é uma versão avançada do ping que exibe várias informações sobre a rota dos pacotes e lhe ajuda a descobrir onde está o problema. Como o ping, digite “pathping” + o nome ou o endereço IP do host.
+
+
+### Fontes:
+
+``` <https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/> ```
+``` <http://computeirodadepressao.com/guia-de-comandos-do-cmd-de-todos-os-windows/>```
+``` <http://br.ccm.net/faq/1420-lista-de-comandos-do-windows> ```
+``` <http://pt.wikihow.com/Descobrir-Todos-os-Comandos-do-CMD-no-Seu-Computador> ```
