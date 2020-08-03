@@ -1,42 +1,42 @@
 # Visual Studio Code
 
-### Todos os atalhos do VS Code!
+# Os principais atalhos do VS Code (Windows/Linux)!
 
 ### Completar código
-Windows/Linux: Ctrl + Space
+Ctrl + Space
 
 ### Criar novo arquivo
-Windows/Linux: Ctrl + n
+Ctrl + n
 
 ### Fechar arquivo
-Windows/Linux: Ctrl + w
+Ctrl + w
 
 ### Salvar arquivo
-Windows/Linux: Ctrl + s
+Ctrl + s
 
 ### Localizar em todos arquivos
-Windows/Linux: Ctrl + Shift + F
+Ctrl + Shift + F
 
 ### Localizar no arquivo
-Windows/Linux: Ctrl + f
+Ctrl + f
 
 ### Indentar documento inteiro
-Windows/Linux: Shift + Alt + F
+Shift + Alt + F
 
 ### Mover linhas
-Windows/Linux: Alt + Seta pra cima ou pra baixo para mover linhas.
+Alt + Seta pra cima ou pra baixo para mover linhas.
 
 ### Copiar linhas
-Windows/Linux: Shift + Alt + Seta pra cima ou pra baixo
+Shift + Alt + Seta pra cima ou pra baixo
 
 ### Apagar linha
-Windows/Linux: Ctrl + shift + k
+Ctrl + shift + k
 
 ### Insira o cursor no final de cada linha selecionada
-Windows/Linux: Shift + Alt + i
+Shift + Alt + i
 
 ### Listar todos os atalhos do vscode
-Windows/Linux: Ctrl + k Ctrl + s
+Ctrl + k Ctrl + s
 
 ### Comentar linhas
-Windows/Linux: Ctrl + k Ctrl + c
+Ctrl + k Ctrl + c
