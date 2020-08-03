@@ -19,7 +19,7 @@ BREAK: Define ou limpa a verificação estendida CTRL+C.
 
 CALL: Chama um programa em lotes a partir de outro.
 
-###### CD:   Entrar em uma pasta
+#### CD:   Entrar em uma pasta
 
 CHCP: Exibe ou define o número da página de código ativa.
 
