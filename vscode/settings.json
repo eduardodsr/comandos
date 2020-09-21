@@ -1,0 +1,52 @@
+{
+  "extensions.ignoreRecommendations": true, // Ignore Recomendações / Notificações (tela inicial)
+
+  "workbench.startupEditor": "welcomePage", // Controles que o editor será mostrado na inicialização se nenhum for restaurado a partir da sessão anterior.
+
+  "workbench.colorTheme": "Default Dark+", // Especifica o tema de cores usado no espaço de trabalho.
+
+  "workbench.iconTheme": "vscode-icons", // Specifies the file icon theme used in the workbench or 'null' to not show any file icons.
+
+  "debug.console.fontFamily": "default", // Debug › Console: Font Family. Controla a família de fontes no console de depuração.
+
+  "editor.fontFamily": "'Fira Code Retina', JetBrains Mono, Consolas, 'Courier New', monospace", // Controla a família de fontes utilizadas no VS Code.
+
+  "editor.fontLigatures": false, // Configura ligaduras de fonte ou recursos de fonte. Os simbolos => ou <= fica uma seta!
+
+  "window.zoomLevel": 1, // Window: Zoom Level. Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller.
+
+  "editor.fontSize": 13, // Font Size. Controla o tamanho da fonte em pixels.
+
+  "editor.lineHeight": 0, // Line Height. Controla a altura da linha. Use 0 para computar a altura da linha a partir do tamanho da fonte.
+
+  "editor.formatOnSave": true, // Padrão é Falso. Editor: Format On Save. Formatar um arquivo ao salvar. Um formatador deve estar disponível, o arquivo não pode ser salvo com atraso, e o editor não deve ser desligado.
+
+  "update.mode": "none", // Update: Mode. Configure se você deseja receber atualizações automáticas.
+
+  "editor.renderWhitespace": "selection", // Editor: Render Whitespace. Controla como o editor deve processar caracteres de espaço em branco.
+
+  // Editor: Rulers. Renderiza réguas verticais após um certo número de caracteres de espaço. Use vários valores para várias réguas. Réguas não serão desenhadas se o array estiver vazio
+  "editor.rulers": [80, 120],
+
+  "editor.tabSize": 4, // Padrão é 4. Tab Size. (Alguns utilizam 2 como tabSize) O número de espaços equivalentes a uma tabulação. Esta configuração é sobreposta com base no conteúdo do arquivo quando Editor: Detect Indentation está ligado.
+
+  // Emmet: Syntax Profiles. Definir o perfil para a sintaxe especificada ou usar seu próprio perfil com regras específicas.
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  // Emmet: Include Languages. Ativa abreviações do Emmet em idiomas que não são suportados por padrão. Adiciona um mapeamento aqui entre o idioma e a linguagem suportada emmet. Por exemplo: {"vue-html":"html","javascript":"javascriptreact"}
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "breadcrumbs.enabled": true, // Breadcrumbs: Enabled. Ativar/desativar endereço de navegação
+
+  "vsicons.dontShowNewVersionMessage": true, // "Version Message". Se definido como 'true', a mensagem de versão nova não vai ser mais mostrada.
+
+  "files.autoSave": "onFocusChange", // Padrão é "off".  "files.autoSave:" onFocusChange - para salvar arquivos quando o foco sair do editor do arquivo.
+
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe" // Padrão é "null". Terminal › Integrated › Shell: Windows. The path of the shell that the terminal uses on Windows (default: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe).
+}
