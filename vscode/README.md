@@ -1,8 +1,14 @@
 # Visual Studio Code
 
-Os principais atalhos do VS Code (Windows/Linux):
+settings.json ( As minhas configurações personalizado do VS Code):
+
+https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json.txt
+
+https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json
 
 
+
+# Os principais atalhos do VS Code (Windows/Linux):
 
 ### Completar código
 Ctrl + Space
