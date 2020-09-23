@@ -47,6 +47,5 @@
   "vsicons.dontShowNewVersionMessage": true, // "Version Message". Se definido como 'true', a mensagem de versão nova não vai ser mais mostrada.
 
   "files.autoSave": "onFocusChange", // Padrão é "off".  "files.autoSave:" onFocusChange - para salvar arquivos quando o foco sair do editor do arquivo.
-
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe" // Padrão é "null". Terminal › Integrated › Shell: Windows. The path of the shell that the terminal uses on Windows (default: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe).
+  
 }
