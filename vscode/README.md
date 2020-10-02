@@ -48,7 +48,7 @@ Ctrl + k Ctrl + c
 
 ## Configurações do VS Code (settings.json)
 
--   *As minhas configurações personalizado do VS Code:
+-   *As minhas configurações personalizado do VS Code:*
 
 https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json.txt
 
