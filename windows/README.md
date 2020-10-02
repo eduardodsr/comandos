@@ -1,3 +1,9 @@
+# Comandos - Windows
+
+[![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardods/)
+![Visitor](https://visitor-badge.glitch.me/badge?page_id=eduardodsr.comandos)
+
+
 ### Lista Geral de Comandos do Windows
 
 Abrir o Executar - Tecla de Atalho do logotipo do Windows + R.
