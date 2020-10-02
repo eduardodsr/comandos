@@ -1,16 +1,10 @@
 # Visual Studio Code
 
-### settings.json 
-
-As minhas configurações personalizado do VS Code):
-
-https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json.txt
-
-https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json
+[![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardods/)
+![Visitor](https://visitor-badge.glitch.me/badge?page_id=eduardodsr.comandos)
 
 
-
-# Os principais atalhos do VS Code (Windows/Linux):
+## Os principais atalhos do VS Code (Windows/Linux):
 
 ### Completar código
 Ctrl + Space
@@ -50,3 +44,12 @@ Ctrl + k Ctrl + s
 
 ### Comentar linhas
 Ctrl + k Ctrl + c
+
+
+## Configurações do VS Code (settings.json)
+
+-   *As minhas configurações personalizado do VS Code:
+
+https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json.txt
+
+https://github.com/eduardodsr/comandos/blob/master/vscode/settings.json
